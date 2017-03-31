@@ -1,5 +1,5 @@
 {
-  "name": "babel-plugin-typecheck",
+  "name": "@taylorstine/babel-plugin-typecheck",
   "version": "3.9.0",
   "description": "Transforms flow type annotations into runtime type checks.",
   "main": "lib/index.js",
