@@ -805,8 +805,8 @@ export default function ({types: t, template}): Object {
           const body = path.get('body');
           body[body.length - 1].insertAfter(template(`
             function id (input, depth) {
-              const maxDepth = 4;
-              const maxKeys = 15;
+              const maxDepth = 8;
+              const maxKeys = 30;
               if (depth === undefined) {
                 depth = 0;
               }
