@@ -9,7 +9,7 @@
     "prepublish": "npm run test-checked",
     "pretest": "npm run build",
     "test": "mocha ./test/index.js",
-    "test-checked": "npm run build-typed && TYPECHECK_USE_LIBCHECKED=1 mocha ./test/index.js",
+      "test-checked": "npm run build-typed",
     "watch": "NODE_WATCH=1 mocha --watch"
   },
   "repository": {
