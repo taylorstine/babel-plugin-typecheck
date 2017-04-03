@@ -1,6 +1,6 @@
 {
   "name": "@taylorstine/babel-plugin-typecheck",
-  "version": "3.9.1",
+  "version": "3.9.2",
   "description": "Transforms flow type annotations into runtime type checks.",
   "main": "lib/index.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "prepublish": "npm run test-checked",
     "pretest": "npm run build",
     "test": "mocha ./test/index.js",
-      "test-checked": "npm run build-typed",
+    "test-checked": "npm run build-typed",
     "watch": "NODE_WATCH=1 mocha --watch"
   },
   "repository": {
